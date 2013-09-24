@@ -6,7 +6,7 @@ import(
     
     "log"
     
-    "github.com/FreeFlightSim/theairlineproject-server/go-airline/config"
+    "github.com/FreeFlightSim/theairlineproject-server/config"
 )
 
 

@@ -14,6 +14,19 @@ import(
 
 
 
+// For not the Data is a symbolic link
+var DATA_PATH = "Data"
+
+
+
+func GetDataPath(file_name string) string {
+    
+    return DATA_PATH + file_name
+}
+
+
+
+
 
 func GetDataFileBytes(file_path string) ([]byte, error) {
     

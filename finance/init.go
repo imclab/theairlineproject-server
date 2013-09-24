@@ -1,5 +1,5 @@
 
-// Finanial Loads inflation and calcs things
+// Finance Loads inflation and calcs things
 package finance
 
 

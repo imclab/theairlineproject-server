@@ -5,7 +5,7 @@ package finance
 import(
     "log"
     "encoding/xml"
-    "github.com/FreeFlightSim/theairlineproject-server/go-airline/loaders"
+    "github.com/FreeFlightSim/theairlineproject-server/loaders"
 )
 
 // inflations.xml snippet

@@ -1,11 +1,10 @@
 
-
-// Represents Services on an aircraft
-package airliner
+// Represents an Airline
+package airline
 
 import(
-    // "fmt"
-    // "os"
+   // "fmt"
+   // "os"
     //"log"
     
     //"encoding/xml"

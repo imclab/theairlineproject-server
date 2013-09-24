@@ -3,10 +3,10 @@
 package airliner
 
 import(
-    "fmt"
     "log"
     "encoding/xml"
-    "github.com/FreeFlightSim/theairlineproject-server/go-airline/loaders"
+    
+    "github.com/FreeFlightSim/theairlineproject-server/loaders"
 )
 
 
@@ -48,7 +48,8 @@ type AirlinerFacility struct{
 
 func LoadFacilities(){
     
-    //log.Println(file_path)
+    log.Println(FACILITIES_XML)
+    
     buf, err := loaders.GetDataFileBytes(FACILITIES_XML)
     if err != nil {
         return
@@ -57,14 +58,14 @@ func LoadFacilities(){
     errx := xml.Unmarshal(buf, facils)
     
     if errx != nil{
-        log.Println("errun:", errx)
+        log.Fatalln("errun:", errx)
         return
     }
     //fmt.Fprintf("%v", facils)
-    for _, cust := range facils.Facility {
-        
-        fmt.Printf("Airline-Facility: %v | %v | %v\n", cust.Uid, cust.FromYear, cust.Type )
-    }
-    fmt.Println("DONE")
+    //for _, cust := range facils.Facility {
+     //   
+     //   fmt.Printf("Airline-Facility: %v | %v | %v\n", cust.Uid, cust.FromYear, cust.Type )
+   // }
+   log.Println("> ok")
 }
 
