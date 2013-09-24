@@ -5,7 +5,8 @@ package main
 
 import(
 	"log"
-    airline "github.com/FreeFlighSim/theairlineproject-server/go-airline/"
+    //"github.com/FreeFlightSim/theairlineproject-server/go-airline/airline"
+    "github.com/FreeFlightSim/theairlineproject-server/go-airline/stores"
 )
 
 
@@ -13,7 +14,8 @@ import(
 func main(){
 	
 	log.Println("Hello Airlines .. ;-)")
-    airline.LoadConfig()
+    
+    stores.Initialise()
     
     
     

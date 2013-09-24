@@ -16,5 +16,5 @@
 package main
 
 import(
-    "github.com/FreeFlighSim/theairlineproject-server/go-airline/"
+    "github.com/FreeFlighSim/theairlineproject-server/go-airline/airline/"
 )
