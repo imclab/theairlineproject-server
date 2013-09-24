@@ -8,7 +8,7 @@ import (
     "github.com/FreeFlightSim/theairlineproject-server/airline"
 )
 
-// Represents a Terminal Building
+// Represents a Terminal Building containing gates
 type Terminal struct {
     Name string
     DeliveryDate time.Time
