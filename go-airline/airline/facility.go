@@ -23,16 +23,16 @@ package airline
 //
 type AirlineFacility struct{
 	
-	Uid uint `json:"uid"` 
+    Uid uint `xml:"uid"` //`json:"uid"` 
 	
 	// 
-	Section string `json:"section"`
+	Section string //`xml:"section"`
 	
 	// 
-	Price uint `json:"price"`
+	Price uint `xml:"price"`
 	
 	// 
-	MonthlyCost string `json:"monthly_cost"`
+	MonthlyCost string `xml:"monthlycost"`
 	
 	LuxuryLevel uint
 	ServiceLevel uint

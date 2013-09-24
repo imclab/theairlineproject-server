@@ -5,7 +5,7 @@ package main
 
 import(
 	"log"
-
+    airline "github.com/FreeFlighSim/theairlineproject-server/go-airline/"
 )
 
 
@@ -13,5 +13,9 @@ import(
 func main(){
 	
 	log.Println("Hello Airlines .. ;-)")
+    airline.LoadConfig()
+    
+    
+    
 } 
 
