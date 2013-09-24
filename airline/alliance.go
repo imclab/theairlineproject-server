@@ -28,7 +28,7 @@ type Alliance struct {
 }
 
 
-type AllianceMember {
+type AllianceMember struct {
     Airline Airline
     JoinedDate time.Time
     ExitedDate time.Time

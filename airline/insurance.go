@@ -17,10 +17,10 @@ const (
 
 type InsuranceScope int
 const (
-    Airport  InsuranceScope   = iota
-    Domestic     
-    Hub   
-    Global     
+    IN_Airport  InsuranceScope   = iota
+    IN_Domestic     
+    IN_Hub   
+    IN_Global     
 )
 
 type InsuranceTerms int

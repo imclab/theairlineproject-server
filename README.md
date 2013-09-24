@@ -6,6 +6,9 @@ as a web application.
 
 For fun, gonna give go a go ;-)
 
+Current Docs
+*  http://godoc.org/github.com/FreeFlightSim/theairlineproject-server
+
 Some documentation (doxygen) for the C# project is at
 * http://theairlineproject.freeflightsim.org/
 
