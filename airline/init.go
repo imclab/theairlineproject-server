@@ -6,6 +6,10 @@ import(
    // "fmt"
 )
 
+type AirlineModel struct{
+    Facilities AirlineFacilities
+    AirlineBudget
+}
 
 
 func LoadConfig(){
